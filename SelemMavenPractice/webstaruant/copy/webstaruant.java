@@ -73,8 +73,8 @@ public class webstaruant {
 				}
 				catch( NoSuchElementException ex)
 				{
-				    System.out.println( "Last page reached"); 
-				    pageFlag = "true";
+					System.out.println( "Last page reached"); 
+					pageFlag = "true";
 				}
 				
 		}	
