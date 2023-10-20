@@ -59,7 +59,7 @@ public class webstaruant {
 					System.out.println("All searched results on page " + pageCounterString + " include the word Table in their title");
 				} 
 				catch(Throwable e){
-				    System.err.println(itemErrorCount + " result(s) detected on page " + pageCounterString + " that dosen't include the word Table. ");
+				    	System.err.println(itemErrorCount + " result(s) detected on page " + pageCounterString + " that dosen't include the word Table. ");
 				}
 				
 				pageCounter++;
