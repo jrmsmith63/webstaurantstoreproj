@@ -55,8 +55,8 @@ public class webstaruant {
 				
 				try //Verify if full list of results include the word "Table"in title. Display number of results that do not meet this criteria
 				{
-				    assertEquals(expectedList, actualList);
-				    System.out.println("All searched results on page " + pageCounterString + " include the word Table in their title");
+					assertEquals(expectedList, actualList);
+					System.out.println("All searched results on page " + pageCounterString + " include the word Table in their title");
 				} 
 				catch(Throwable e){
 				    System.err.println(itemErrorCount + " result(s) detected on page " + pageCounterString + " that dosen't include the word Table. ");
